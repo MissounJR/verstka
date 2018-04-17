@@ -1,0 +1,41 @@
+/* 
+section
+.class
+#id
+[attribute](attribute = "smtg")
+можно через запятую
+smthg:pseudo-class
+smthg::pseudo-element
+
+ul - 
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+#theme{
+    border: 1.5px solid black;
+    text-align: center; 
+    background-color: #fd739c;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#audio{
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    padding: 15px;
+    padding-bottom: 45px;
+}
