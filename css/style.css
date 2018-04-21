@@ -35,7 +35,14 @@ html {
     
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 header{
     padding: 15px;
     padding-bottom: 45px;
 }
+
